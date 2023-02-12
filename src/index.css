@@ -62,71 +62,21 @@ a:active {
   background-color: rgb(159, 202, 204);
 }
 
-h1.caption {
-  color: rgb(50, 52, 60);
-  border: 5px rgb(159, 202, 204);
-  font-size: 24px;
-  text-align: right;
-  background-color: rgb(159, 202, 204);
-}
 img.imagecaption {
   border-radius: 50%;
 
   float: right;
   max-width: 7%;
 }
-.section {
+.body-section {
+  padding: 50px;
   display: flex;
-  flex-flow: row;
 }
 
-.article-left {
-  display: flex;
-  width: 20%;
-  margin: 20px;
-  padding: 20px;
-  background: whitesmoke;
-  flex-flow: row;
-  border-width: 5px;
-  border-color: black;
-  border-right-style: solid;
-  justify-content: right;
-}
-p.article-left-paragraph {
-  text-align: justify;
-  line-height: 1.8;
-  font-size: 14pt;
-  padding-right: 10px;
-}
 h1.article-heading {
   font-size: 32px;
 }
-.article-right {
-  display: flex;
-  flex-flow: column;
-  width: 80%;
-  margin: 10px;
-  padding: 10px;
-  background: whitesmoke;
-}
 
-.article-right-child-containter-top {
-  display: flex;
-  padding: 20px;
-  margin: 20px;
-
-  justify-content: center;
-}
-.article-right-child-container-bottom {
-  display: flex;
-
-  flex-direction: row;
-
-  justify-content: space-evenly;
-
-  padding: 20px;
-  margin: 20px;
-}
 img.portfolio-images {
   max-width: 100%;
   border: 5px solid darkcyan;
@@ -146,16 +96,6 @@ img.portfolio-images {
   padding: 5px;
   margin: 0px;
 }
-.porfolio-images-text-bottom-left a {
-  /*text-decoration: solid;*/
-  text-decoration: none;
-  font-size: 20px;
-  text-align: right;
-  color: whitesmoke;
-}
-.porfolio-images-text-bottom-left a:hover {
-  color: hotpink;
-}
 
 footer {
   display: flex;
@@ -163,7 +103,7 @@ footer {
   width: 100%;
   height: 100%;
   background-color: cornflowerblue;
-  padding: 20px;
+  padding: 5px;
   justify-content: center;
 }
 

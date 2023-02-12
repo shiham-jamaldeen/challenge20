@@ -5,9 +5,9 @@ function Footer() {
     <footer>
       <ul>
         <li className="footerlink">
-          <i class="bi-github" style={{ fontSize: "80px" }}></i>
+          <i class="bi bi-github" style={{ fontSize: "60px" }}></i>
           <a
-            href="https://github.com/shiham.jamaldeen"
+            href="https://github.com/shiham-jamaldeen"
             target="_blank"
             rel="noreferrer"
           >
@@ -17,9 +17,9 @@ function Footer() {
         </li>
         <li className="footerlink">&nbsp;&nbsp;&nbsp;&nbsp;</li>
         <li className="footerlink">
-          <i class="bi bi-linkedin" style={{ fontSize: "80px" }}></i>
+          <i class="bi bi-linkedin" style={{ fontSize: "60px" }}></i>
           <a
-            href="www.linkedin.com/in/shiham-j-ba43141b"
+            href="https://www.linkedin.com/in/shiham-j-ba43141b"
             target="_blank"
             rel="noreferrer"
           >
