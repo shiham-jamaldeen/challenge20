@@ -1,29 +1,53 @@
 import React from "react";
+import { useState } from "react";
 import ProjectCard from "../Project.js";
 
 function Portfolio() {
   //pass values to project component
 
-  const projectDisplayArray = [
+  const [projectDisplayArray, setItems] = useState([
     {
+      id: "1",
       projectTitle: "The Technology Blog",
       projectDesc:
         "The Technology Blog is a simple Content Management System style blogging platform that allows users to post technology related blogposts. As a added bonus registered users can post their comments and ideas against an article.",
       projectURL: "https://fast-anchorage-91606.herokuapp.com",
       projectGitHub: "https://github.com/shiham-jamaldeen/Challenge14",
-      projectImage: "../src/assets/tech-blog.png",
+      projectImage: "../assets/tech-blog.png",
     },
-  ];
+    {
+      id: "2",
+      projectTitle: "The Technology Blog",
+      projectDesc:
+        "The Technology Blog is a simple Content Management System style blogging platform that allows users to post technology related blogposts. As a added bonus registered users can post their comments and ideas against an article.",
+      projectURL: "https://fast-anchorage-91606.herokuapp.com",
+      projectGitHub: "https://github.com/shiham-jamaldeen/Challenge14",
+      projectImage: "../assets/tech-blog.png",
+    },
+    {
+      id: "3",
+      projectTitle: "The Technology Blog",
+      projectDesc:
+        "The Technology Blog is a simple Content Management System style blogging platform that allows users to post technology related blogposts. As a added bonus registered users can post their comments and ideas against an article.",
+      projectURL: "https://fast-anchorage-91606.herokuapp.com",
+      projectGitHub: "https://github.com/shiham-jamaldeen/Challenge14",
+      projectImage: "../assets/tech-blog.png",
+    },
+    {
+      id: "4",
+      projectTitle: "The Technology Blog",
+      projectDesc:
+        "The Technology Blog is a simple Content Management System style blogging platform that allows users to post technology related blogposts. As a added bonus registered users can post their comments and ideas against an article.",
+      projectURL: "https://fast-anchorage-91606.herokuapp.com",
+      projectGitHub: "https://github.com/shiham-jamaldeen/Challenge14",
+      projectImage: "../assets/tech-blog.png",
+    },
+  ]);
 
   return (
-    <div className="container body-section">
+    <div className="container">
       <div className="row">
-        <div className="col-md-6" style={{ padding: "20px" }}>
-          <ProjectCard ProjectCard={projectDisplayArray} />
-        </div>
-        <div className="col-md-6" style={{ padding: "20px" }}>
-          <ProjectCard />
-        </div>
+        <ProjectCard projectDisplayArray={projectDisplayArray} />
       </div>
     </div>
   );
