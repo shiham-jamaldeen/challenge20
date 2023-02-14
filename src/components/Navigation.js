@@ -8,10 +8,10 @@ function Navigation({ handlePageChange }) {
     <>
       <nav>
         <h1 className="navigationheader">Shiham Jamaldeen</h1>
-        <ul>
+        <ul className="navlist">
           <li className="navigationlist">
             <a href="#About" onClick={() => handlePageChange("About")}>
-              About Me
+              About
             </a>
           </li>
           <li className="navigationlist">
