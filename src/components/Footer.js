@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <footer>
-      <ul>
+      <ul className="footerlink">
         <li className="footerlink">
           <i class="bi bi-github" style={{ fontSize: "60px" }}></i>
           <a
