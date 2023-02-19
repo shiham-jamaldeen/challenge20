@@ -15,15 +15,14 @@ function Contact() {
   const validateForm = (event) => {
     event.preventDefault();
 
-    if (event.target.name === inquirerName) {
+    if (event.target.name === "inquirerName") {
       if (!event.target.value.length) {
         setErrorMessage("ERROR: Name is a required field");
-        console.log(event.target.value);
       } else {
         setErrorMessage("");
       }
     }
-    if (event.target.name === inquirerMessage) {
+    if (event.target.name === "inquirerMessage") {
       if (!event.target.value.length) {
         setErrorMessage("ERROR: Message is a required field");
       } else {
@@ -37,7 +36,7 @@ function Contact() {
   const validateEmail = (event) => {
     event.preventDefault();
 
-    if (event.target.name === inquirerEmail) {
+    if (event.target.name === "inquirerEmail") {
       if (!event.target.value.length) {
         setErrorMessage("ERROR: Email can't be empty");
       } else if (
@@ -68,35 +67,38 @@ function Contact() {
           <form>
             <div class="form-group row" className="form-row">
               {errorMessage && <p style={{ color: "red" }}>{errorMessage}</p>}
-              <label for="inquirerName" class="col-sm-2 col-form-label">
+              <label htmlFor="inquirerName" class="col-sm-2 col-form-label">
                 Your name
               </label>
               <input
                 type="text"
                 class="form-control"
+                name="inquirerName"
                 id="inquirerName"
                 onBlur={validateForm}
                 defaultValue={formState.inquirerName}
               />
             </div>
             <div class="form-group row" className="form-row">
-              <label for="inquirerEmail" class="col-sm-2 col-form-label">
+              <label htmlFor="inquirerEmail" class="col-sm-2 col-form-label">
                 Your email
               </label>
               <input
                 type="email"
                 class="form-control"
+                name="inquirerEmail"
                 id="inquirerEmail"
                 onBlur={validateEmail}
                 defaultValue={formState.inquirerEmail}
               />
             </div>
             <div class="form-group row" className="form-row">
-              <label for="inquirerMessage" class="col-sm-2 col-form-label">
+              <label htmlFor="inquirerMessage" class="col-sm-2 col-form-label">
                 Your message
               </label>
               <textarea
                 class="form-control"
+                name="inquirerMessage"
                 id="inquirerMessage"
                 rows="3"
                 defaultValue={formState.inquirerMessage}

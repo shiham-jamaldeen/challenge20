@@ -11,11 +11,12 @@ function Project(props) {
           style={{ padding: "20px" }}
           key={projectDisplayArray.id}
         >
-          <div className="card" style={{ width: "18rem" }}>
+          <div className="card" style={{ width: "450px" }}>
             <img
               src={projectDisplayArray.projectImage}
               class="card-img-top"
-              alt="..."
+              alt="project preview image"
+              height={"25%"}
             />
             <div className="card-body">
               <h4 className="card-title">{projectDisplayArray.projectTitle}</h4>

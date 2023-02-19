@@ -10,19 +10,19 @@ function Portfolio() {
       id: "1",
       projectTitle: "The Technology Blog",
       projectDesc:
-        "The Technology Blog is a simple Content Management System style blogging platform that allows users to post technology related blogposts. As a added bonus registered users can post their comments and ideas against an article.",
+        "The Technology Blog is a simple Content Management System style blogging platform that allows users to post technology related blogposts. Registered users can post their comments and ideas against an article.",
       projectURL: "https://fast-anchorage-91606.herokuapp.com",
       projectGitHub: "https://github.com/shiham-jamaldeen/Challenge14",
       projectImage: "../assets/tech-blog.png",
     },
     {
       id: "2",
-      projectTitle: "The Technology Blog",
+      projectTitle: "Workday Scheduler",
       projectDesc:
-        "The Technology Blog is a simple Content Management System style blogging platform that allows users to post technology related blogposts. As a added bonus registered users can post their comments and ideas against an article.",
-      projectURL: "https://fast-anchorage-91606.herokuapp.com",
-      projectGitHub: "https://github.com/shiham-jamaldeen/Challenge14",
-      projectImage: "../assets/tech-blog.png",
+        "This is a simple work day scheduler that can record your appointments and events for the day. You can save your appointments and they are colour coded for easy identifiction",
+      projectURL: "https://shiham-jamaldeen.github.io/Challenge05/",
+      projectGitHub: "https://github.com/shiham-jamaldeen/Challenge05",
+      projectImage: "../assets/workday-scheduler.png",
     },
     {
       id: "3",
@@ -64,7 +64,7 @@ function Portfolio() {
 
   return (
     <div className="container">
-      <h1 className="page-title">Portfolio of projects</h1>
+      <h1 className="page-title">Portfolio</h1>
       <div className="row">
         <ProjectCard projectDisplayArray={projectDisplayArray} />
       </div>
