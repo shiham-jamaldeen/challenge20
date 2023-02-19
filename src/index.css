@@ -84,11 +84,10 @@ a:active {
   padding: 5px;
   margin: 5px;
 }
-img.imagecaption {
+.imagecaption {
   border-radius: 50%;
 
-  float: right;
-  max-width: 7%;
+  max-width: 15%;
 }
 .body-section {
   padding: 50px;

@@ -11,7 +11,7 @@ function Resume() {
         }}
       >
         <div className="col-md-8">
-          <p class="fs-4">
+          <p class="fs-5">
             Download my {""}
             <a
               href="../assets/Resume-Shiham-Jamaldeen.pdf"
@@ -27,6 +27,7 @@ function Resume() {
             <li class="list-group-item">CSS</li>
             <li class="list-group-item">JavaScript ES6</li>
             <li class="list-group-item">SQL</li>
+            <li class="list-group-item">GraphQL</li>
           </ul>
           <h4 style={{ marginTop: "10px" }}>Framework and Tools</h4>
           <ul class="list-group" style={{ width: "50%" }}>
