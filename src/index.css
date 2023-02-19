@@ -66,12 +66,24 @@ a:active {
   color: rgb(50, 52, 60);
   border: 5px rgb(159, 202, 204);
   line-height: 100px;
-
+  width: fit-content;
   margin: 15px;
   height: 75%;
   background-color: rgb(159, 202, 204);
 }
-
+.page-title {
+  color: rgb(50, 52, 60);
+  border: 5px rgb(159, 202, 204);
+  line-height: 100px;
+  width: fit-content;
+  margin: 15px;
+  height: 75%;
+  background-color: rgb(159, 202, 204);
+}
+.form-row {
+  padding: 5px;
+  margin: 5px;
+}
 img.imagecaption {
   border-radius: 50%;
 
