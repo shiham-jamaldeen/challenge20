@@ -1,5 +1,7 @@
 import React from "react";
 
+//component that displays the card with project details
+
 function Project(props) {
   const projectDisplayArray = props.projectDisplayArray;
 

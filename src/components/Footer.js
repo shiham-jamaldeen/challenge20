@@ -1,5 +1,7 @@
 import React from "react";
 
+//Footer component, displayed across all pages
+
 function Footer() {
   return (
     <footer>

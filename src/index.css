@@ -31,12 +31,9 @@ ul.navlist {
 li.navigationlist {
   display: inline;
   margin: 0 10px;
-  /*padding: 0px 20px;*/
   text-decoration: underline;
   line-height: 100px;
-  /*font-size: 24px;*/
   color: rgb(159, 202, 204);
-  /*padding-inline-end: 50px;*/
   justify-content: flex-end;
 }
 li.navigationlist a {
@@ -124,7 +121,6 @@ footer {
   width: 100%;
   height: 100%;
   background-color: cornflowerblue;
-
   justify-content: center;
 }
 ul.footerlink {
@@ -136,11 +132,8 @@ ul.footerlink {
 
 li.footerlink {
   display: inline;
-  /*padding-top: 20px;
-  margin-top: 10px;*/
   text-decoration: none;
   line-height: 100px;
-  /*font-size: 26px;*/
 }
 
 /* Re-size for devices*/
@@ -157,13 +150,8 @@ li.footerlink {
     display: inline;
     margin: 0 10px;
     line-height: 0px;
-    /*padding: 0px 20px;*/
     text-decoration: underline;
-    /*line-height: 100px;*/
-    /*font-size: 24px;*/
     color: rgb(159, 202, 204);
-    /*padding-inline-end: 50px;*/
-    /*justify-content: flex-end;*/
   }
   li.navigationlist a {
     display: block;
@@ -183,10 +171,6 @@ li.footerlink {
 
   li.footerlink {
     display: inline;
-    /*padding-top: 20px;
-    margin-top: 10px;*/
     text-decoration: none;
-    /*line-height: 100px;*/
-    /*font-size: 26px;*/
   }
 }
