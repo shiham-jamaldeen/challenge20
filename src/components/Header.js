@@ -1,5 +1,5 @@
 import React from "react";
-//Simple header, that displays a background in the
+//Header, that displays a background image in the heade
 function Header() {
   return <header>{/*the background image goes here */}</header>;
 }

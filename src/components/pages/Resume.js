@@ -29,7 +29,7 @@ function Resume() {
             <li class="list-group-item">SQL</li>
             <li class="list-group-item">GraphQL</li>
           </ul>
-          <h4 style={{ marginTop: "10px" }}>Framework and Tools</h4>
+          <h4 style={{ margin: "10px" }}>Framework and Tools</h4>
           <ul class="list-group" style={{ width: "50%" }}>
             <li class="list-group-item">Node</li>
             <li class="list-group-item">Handlebars</li>

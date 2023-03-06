@@ -1,7 +1,9 @@
 import React from "react";
 import { useState } from "react";
 
+// Contact me form component and validation
 function Contact() {
+  // this form checks for empty fields and checks the validity of the email using regular exprerssions
   const [formState, setFormState] = useState({
     inquirerName: "",
     inquirerEmail: "",
@@ -10,9 +12,9 @@ function Contact() {
 
   const [errorMessage, setErrorMessage] = useState("");
 
-  const { inquirerName, inquirerEmail, inquirerMessage } = formState;
-
+  //error checking for InquirerName and InquirerMessage fields and displays the custom error message
   const validateForm = (event) => {
+    //prevent the default behaviour when clicking on submit
     event.preventDefault();
 
     if (event.target.name === "inquirerName") {
@@ -29,10 +31,12 @@ function Contact() {
         setErrorMessage("");
       }
     }
+    //if no error found then re-set the values responsible for form validation for the name and message fields
     if (!errorMessage) {
       setFormState({ ...formState, [event.target.name]: event.target.value });
     }
   };
+  //error checking for InquirerEmail field and displays custom error message, based on the error
   const validateEmail = (event) => {
     event.preventDefault();
 

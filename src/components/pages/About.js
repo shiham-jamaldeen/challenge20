@@ -1,5 +1,5 @@
 import React from "react";
-
+//About me component
 function About() {
   return (
     <div className="container">
@@ -21,11 +21,9 @@ function About() {
           <p class="fs-5" style={{ textAlign: "justify" }}>
             Shiham is an experienced Technical Author and budding Full Stack Web
             Developer with a demonstrated history of working in the software
-            industry for over 10 years. Shiham has worked across several domains
-            including Healthcare, Banking, Financial Markets, and Human
-            Resources.
+            industry for over 10 years.
           </p>
-          <p class="fs-5">
+          <p class="fs-5" style={{ textAlign: "justify" }}>
             The portfolio section showcases some of the projects completed at
             the recently concluded University of Adelaide Coding Bootcamp.
           </p>
