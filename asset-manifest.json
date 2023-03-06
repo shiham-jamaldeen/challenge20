@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/challenge20/static/css/main.533a84db.css",
+    "main.js": "/challenge20/static/js/main.4962e0ec.js",
+    "static/media/background-image.png": "/challenge20/static/media/background-image.8cd53d7ad917228c4f15.png",
+    "static/media/bootstrap-icons.woff?": "/challenge20/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/bootstrap-icons.woff2?": "/challenge20/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "index.html": "/challenge20/index.html",
+    "main.533a84db.css.map": "/challenge20/static/css/main.533a84db.css.map",
+    "main.4962e0ec.js.map": "/challenge20/static/js/main.4962e0ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.533a84db.css",
+    "static/js/main.4962e0ec.js"
+  ]
+}
