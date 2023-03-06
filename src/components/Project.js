@@ -15,7 +15,7 @@ function Project(props) {
         >
           <div className="card" style={{ width: "100%" }}>
             <img
-              src={projectDisplayArray.projectImage}
+              src={process.env.PUBLIC_URL + projectDisplayArray.projectImage}
               class="card-img-top"
               alt="project preview image"
               style={{

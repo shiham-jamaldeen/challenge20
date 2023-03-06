@@ -1,6 +1,18 @@
 import React from "react";
-//Header, that displays a background image in the heade
+//import background from "/assets/background-image.png";
+
+//Header, that displays a background image in the header
 function Header() {
-  return <header>{/*the background image goes here */}</header>;
+  return (
+    <header
+      style={{
+        backgroundImage: `url(${
+          process.env.PUBLIC_URL + "/assets/background-image.png"
+        })`,
+      }}
+    >
+      {/*the background image goes here */}
+    </header>
+  );
 }
 export default Header;

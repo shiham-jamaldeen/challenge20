@@ -14,7 +14,9 @@ function Resume() {
           <p class="fs-5">
             Download my {""}
             <a
-              href="../assets/Resume-Shiham-Jamaldeen.pdf"
+              href={
+                process.env.PUBLIC_URL + "/assets/Resume-Shiham-Jamaldeen.pdf"
+              }
               target="_blank"
               rel="noreferrer"
             >

@@ -1,4 +1,5 @@
 import React from "react";
+
 //About me component
 function About() {
   return (
@@ -13,7 +14,7 @@ function About() {
         <div className="col-md-12">
           <p>
             <img
-              src="../assets/ShihamAvatar.png"
+              src={process.env.PUBLIC_URL + "/assets/ShihamAvatar.png"}
               alt="Shiham's Profile Photo"
               className="imagecaption"
             />
@@ -22,6 +23,10 @@ function About() {
             Shiham is an experienced Technical Author and budding Full Stack Web
             Developer with a demonstrated history of working in the software
             industry for over 10 years.
+          </p>
+          <p class="fs-5" style={{ textAlign: "justify" }}>
+            Shiham has worked across several domains which include Healthcare,
+            Banking, Financial Markets, and Human Resources.
           </p>
           <p class="fs-5" style={{ textAlign: "justify" }}>
             The portfolio section showcases some of the projects completed at

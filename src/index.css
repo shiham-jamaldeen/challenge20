@@ -18,7 +18,6 @@ nav {
 header {
   height: 175px;
   width: 100%;
-  background-image: url("../public/assets/background-image.png");
   background-size: cover;
   background-position: center;
 }
