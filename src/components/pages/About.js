@@ -32,6 +32,13 @@ function About() {
             The portfolio section showcases some of the projects completed at
             the recently concluded University of Adelaide Coding Bootcamp.
           </p>
+          <h3>My Skills</h3>
+          <h4>Languages:</h4>
+          <p class="fs-5">JavaScript ES6+, CSS3, HTML5, SQL, NoSQL</p>
+          <h4>Tools:</h4>{" "}
+          <p class="fs-5">
+            Bootstrap, jQuery, Express, React, Node, Handlebars
+          </p>
         </div>
       </div>
     </div>
